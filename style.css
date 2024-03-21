@@ -1,0 +1,201 @@
+body {
+    font-family: "MuseoModerno", sans-serif;
+    color: #353f67;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #353f67;
+    color: #fff;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px 0; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #353f67;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+@media only screen and (max-width: 768px) {
+    footer {
+        padding: 15px 0; 
+    }
+}
+
+
+.hero-banner {
+    background-image: url('CooperandLeo.jpg');
+    background-size: full;
+    background-position: center; 
+    color: #ffffff; 
+    padding: 100px 100px;
+    text-align: center; 
+}
+
+.hero-banner h1 {
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+.hero-banner p {
+    font-size: 18px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-banner {
+        padding: 80px 0; 
+    }
+    .hero-banner h1 {
+        font-size: 30px; 
+    }
+    .hero-banner p {
+        font-size: 16px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-banner {
+        padding: 60px 0; 
+    }
+    .hero-banner h1 {
+        font-size: 24px;
+    }
+    .hero-banner p {
+        font-size: 14px; 
+    }
+}
+
+#content .video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+}
+
+#content .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .video-container {
+        padding-top: 42.1875%; 
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .video-container {
+        padding-top: 56.25%; 
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(45% - 20px); 
+    background-color: #353f67;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        width: 100%; 
+    }
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.accordion-item {
+    color: #353f67;
+    border-bottom: 1px solid #3b3862;
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px 0;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+    .accordion-title {
+        padding: 10px; 
+    }
+    .accordion-content {
+        padding: 10px; 
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .accordion-title {
+        padding: 5px;
+    }
+    .accordion-content {
+        padding: 5px; 
+    }
+}
